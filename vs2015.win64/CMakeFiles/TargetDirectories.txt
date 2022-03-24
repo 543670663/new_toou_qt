@@ -1,0 +1,4 @@
+E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/qt_c.dir
+E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/INSTALL.dir
+E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/ALL_BUILD.dir
+E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/ZERO_CHECK.dir

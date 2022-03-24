@@ -1,0 +1,31 @@
+import QtQuick 2.6
+import Toou2D 1.0
+
+
+ TRectangle{
+        
+        height: 100
+        color: "#F0F0F0"
+		theme.groupName: "topbar"
+		TIconButton{
+            
+            icon.position: TPosition.Left
+            icon.source: TAwesomeType.FA_download
+            icon.width: icon.height;
+            icon.height: 25;
+            icon.color: label.color;
+
+            label.text: "更新配置信息"
+            label.color: "#272727"
+            label.font.pixelSize: 16;
+            label.font.bold: true;
+
+            backgroundComponent: null;
+
+            anchors.verticalCenterOffset: -200
+            anchors.verticalCenter: parent.verticalCenter;
+            anchors.leftMargin:  20;
+            anchors.left: parent.left;
+        }
+
+}

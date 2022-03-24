@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\work\tao_pt_new\qt_c\vs2015.win64\CMakeFiles\6039d472006a2d012e505b1ca13e160c\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{12224216-4414-343A-B738-732C63AF37D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

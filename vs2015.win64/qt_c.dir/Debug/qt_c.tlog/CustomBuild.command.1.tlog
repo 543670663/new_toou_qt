@@ -1,0 +1,30 @@
+^E:\WORK\TAO_PT_NEW\QT_C\VS2015.WIN64\CMAKEFILES\C563D07047804256472CF9F824FB0EFA\QRC_QML.CPP.RULE
+setlocal
+cd E:\work\tao_pt_new\qt_c\vs2015.win64
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/qt_c_autogen.dir/AutoRcc_qml_ZTDPUWS4SH_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/qt_c_autogen.dir/AutoRcc_qml_ZTDPUWS4SH_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/qt_c_autogen.dir/AutoRcc_qml_ZTDPUWS4SH_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/qt_c_autogen.dir/AutoRcc_qml_ZTDPUWS4SH_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\WORK\TAO_PT_NEW\QT_C\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/work/tao_pt_new/qt_c -BE:/work/tao_pt_new/qt_c/vs2015.win64 --check-stamp-file E:/work/tao_pt_new/qt_c/vs2015.win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

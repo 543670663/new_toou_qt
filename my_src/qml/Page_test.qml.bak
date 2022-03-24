@@ -1,0 +1,30 @@
+import QtQuick 2.6
+import Toou2D 1.0
+
+
+ TRectangle{
+        
+        width: parent.width
+        height: 100
+        color: "#F0F0F0"
+		theme.groupName: "topbar"
+		TIconButton{
+        
+            icon.source: TAwesomeType.question_circle_o
+            icon.width: icon.height;
+            icon.height: 25;
+            icon.color: label.color;
+
+            label.text: "开始测试"
+            label.color: "#272727"
+            label.font.pixelSize: 16;
+            label.font.bold: true;
+
+            backgroundComponent: null;
+			
+            anchors.verticalCenterOffset: -200
+            anchors.verticalCenter: parent.verticalCenter;
+            anchors.leftMargin:  20;
+            anchors.left: parent.left;
+        }
+		}

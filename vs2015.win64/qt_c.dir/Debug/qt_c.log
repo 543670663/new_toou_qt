@@ -1,0 +1,9 @@
+﻿  Automatic MOC for target qt_c
+  Automatic RCC for my_src/qml/qml.qrc
+  Building Custom Rule E:/work/tao_pt_new/qt_c/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  main.cpp
+  configadapter.cpp
+  qrc_qml.cpp
+  正在生成代码...
+  qt_c.vcxproj -> E:\work\tao_pt_new\qt_c\vs2015.win64\Debug\qt_c.exe
